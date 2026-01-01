@@ -7,3 +7,5 @@ now make a dir s3 [Git stores small files (code).
 DVC TRACKS large files, but stores the actual data in a different folder or remote storage (like S3).]
 now we do "dvc remote add -d myremote s3"
 now "dvc add data/"  [we will get error then follow the instructions]
+now "git add .gitignore data.dvc"
+now "dvc commit and then dvc push"
